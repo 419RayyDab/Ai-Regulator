@@ -1,0 +1,152 @@
+
+/*The footer section starts!*/
+footer{
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+    
+}
+
+@media (max-width:800px){
+    footer{
+        position: static;
+    }
+
+   main{
+    text-align: center;
+   }
+}
+
+
+
+.footer-distributed{
+    background-color: #100B20;
+    ;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align:left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+    width: 30%;
+}
+
+.footer-distributed h4 span{
+
+}
+
+.footer-distributed p{
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .terms{
+   display: flex;
+   margin-top: 60px;
+   font-size: 14px;
+   color: white;
+}
+
+ .footer-company-name{
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-center{
+    width: 30%;
+}
+
+.footer-distributed .footer-center .text-wrap{
+    text-align: left;
+    padding-left: 200px;
+}
+
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+    
+}
+
+.footer-distributed .footer-center p a{
+    color: white;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.footer-distributed .footer-center p a:hover{
+    color: rgb(213, 17, 161);
+}
+
+.footer-distributed .footer-right{
+    width: 30%;
+    padding-left: 100px;
+}
+.footer-distributed .footer-company-contact {
+    color: white;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0;
+    font-weight: normal;
+}
+.footer-distributed .footer-company-contact span{
+    font-weight: bold;
+}
+
+.footer-distributed .footer-right .contact{
+    margin-top: 5px;
+}
+
+.footer-distributed .footer-right .contact span{
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+@media(max-width:880px){
+    .footer-distributed .footer-left, .footer-distributed .footer-center,.footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .footer-distributed .footer-center .text-wrap{
+        padding-left: 0;
+    }
+
+    .footer-distributed .footer-right{
+        padding-left: 0;
+    }
+
+    
+}

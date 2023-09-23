@@ -1,0 +1,384 @@
+<!--I saw it This late😥, thats my reason for not having to finish
+this beautifull opportunity😓. This is going to leave bordens in me for ever 😭😭 I wish i had a second chance-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetLinked</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+        @import url('clash-display.css');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mooli&display=swap');
+
+        * {
+            list-style: none;
+            text-decoration: none;
+
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: ClashDisplay;
+            color: white;
+        }
+
+
+        @font-face {
+            font-family: ClashDisplay;
+            src: url(./ClashDisplay-Bold.ttf);
+        }
+
+
+        hr {
+
+            border: 1px solid #ffffff39;
+        }
+
+        .blur {
+            background-color: #8f3aff97;
+            position: absolute;
+            left: 250px;
+            opacity: 0.9;
+            height: 200px;
+            border-radius: 200px;
+            width: 200px;
+            box-shadow: 0px 10px 100px 0px #8f3aff;
+            filter: blur(70px);
+        }
+
+        .blur2 {
+            background-color: #8f3aff97;
+            position: absolute;
+            left: 90%;
+            opacity: 0.7;
+            height: 200px;
+            border-radius: 200px;
+            width: 200px;
+            box-shadow: 0px 10px 100px 0px #8f3aff;
+            filter: blur(70px);
+        }
+
+        .effect1 {
+            background-color: #8f3aff97;
+            position: absolute;
+            left: 0px;
+            opacity: 0.9;
+            height: 200px;
+            border-radius: 200px;
+            width: 200px;
+            box-shadow: 0px 10px 100px 0px #8f3aff;
+            filter: blur(70px);
+        }
+
+
+
+        body {
+            background-color: #150e28;
+            overflow-x: hidden;
+            font-family: 'Montserrat';
+        }
+
+
+        header {
+            padding-top: 10px;
+            padding-left: 30px;
+            border-bottom: 1px solid #ffffff39;
+
+
+        }
+
+        .active {
+            width: 172px;
+            height: 53px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            margin-left: 0px;
+            border-image-slice: 1;
+            border-width: 3px;
+            border-image-source: linear-gradient(to left, #903aff, #d434fe, #ff26b9);
+        }
+
+        header nav h1 {
+            color: #ffff;
+            font-weight: 700;
+            font-size: 25px;
+            font-family: 'ClashDisplay';
+            line-height: 44.28px;
+
+        }
+
+        .purple {
+            color: #d434fe
+        }
+
+        /*navbar collapse section*/
+        .navbar-collapse {
+            margin-left: 460px;
+        }
+
+        @media(max-width:1000px) {
+            .navbar-collapse {
+                margin-left: 0;
+            }
+        }
+
+        .navbar-nav {
+            display: flex;
+            width: 90%;
+            justify-content: space-between;
+        }
+
+        .navbar-nav .nav-item a {
+            color: white;
+            line-height: 50px;
+            font-family: 'Montserrat';
+            text-decoration: none;
+        }
+
+        .reg-btn {
+            width: 172px;
+            height: 53px;
+            border-radius: 4px;
+            background: linear-gradient(to left, #903aff, #d434fe, #ff26b9, #fe34b9);
+            border: none;
+            color: white;
+            margin-left: 0px;
+        }
+
+
+        .back-icon {
+            margin: 30px;
+            width: 30px;
+            display: none;
+        }
+
+        .main {
+            display: flex;
+            width: 100%;
+            margin-top: 70px;
+            justify-content: space-around;
+
+        }
+
+        .main .form {
+            background: linear-gradient(to right bottom, #221a39, #150e28, #281647);
+            text-align: left;
+            padding: 10px 20px;
+            width: 600px;
+            color: white;
+            box-shadow: 2px 3px 6px 6px rgb(26, 13, 32);
+        }
+
+        .main .top-banner {
+            width: 200px;
+            display: none;
+        }
+
+        .main .row1 {
+            display: flex;
+        }
+
+        .main .row1 input {
+            width: 50%;
+            margin: 20px;
+        }
+
+
+        .main .row2 {
+            display: flex;
+        }
+
+        .main .row2 input {
+            width: 50%;
+            margin: 20px;
+        }
+
+        .main .row3 {
+            display: flex;
+        }
+
+        .main .row3 select {
+            width: 50%;
+            margin: 20px;
+        }
+
+        .main .form input,
+        select {
+            padding: 10px 20px;
+            font-size: 14px;
+            border-radius: 4px;
+            Color: white;
+            background: transparent;
+            border: 1px solid white;
+            width: 66%;
+            margin-top: 30px;
+        }
+
+        .main .form button {
+            width: 100%;
+        }
+
+        .div-1 img {
+            width: 500px;
+        }
+
+        .social {
+            display: none;
+        }
+
+        .main p {
+            Color: white;
+        }
+
+        .main .p {
+            Color: white;
+            font-size: 18px;
+            text-align: left;
+            display: none;
+        }
+
+        @media(max-width:1000px) {
+            header {
+                display: none;
+            }
+
+
+            .div-1 {
+                display: none;
+            }
+
+            .main .top-banner {
+                display: block;
+            }
+
+            .main .p {
+                display: block;
+            }
+
+            .main .row1 {
+                display: block;
+            }
+
+            .main .row2 {
+                display: block;
+            }
+
+            .main .form {
+                max-width: 390px;
+            }
+
+            .main .form input {
+                width: 90%;
+            }
+
+            .main .form .select1 {
+                width: fit-content;
+            }
+
+            .main .form .select2 {
+                width: 100%;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html">
+        <img src="./images/Group 1.png" class="back-icon">
+    </a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1>get<span class="purple">linked</span></h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="images/Vector.png" alt="">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a aria-current="page" href="index.html#timeline">Timeline</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#fnq">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" tabindex="-1" aria-disabled="true">contact</a>
+                        </li>
+
+                        <button class="active">Register</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--<div class="blur"></div>-->
+
+    <div class="main">
+        <div class="div-1">
+            <img src="images/3d-graphic-designer-showing-thumbs-up-png 1 (1).png" alt="">
+        </div>
+
+        <div class="div-2">
+            <div class="form">
+                <form action="">
+                    <h3 class="purple">Register</h3>
+                    <img src="./images/3d-graphic-designer-showing-thumbs-up-png 1 (1).png" class="top-banner">
+                    <small>Be part of this movement</small>
+                    <p>CREATE YOUR ACCOUNT</p>
+                    <span class="row1">
+                        <input type="text" placeholder="Enter the name of your group">
+                        <input type="text" placeholder="Enter your phone number">
+                    </span>
+
+                    <span class="row2">
+                        <input type="text" placeholder="Enter your email address">
+                        <input type="text" placeholder="What is your group project topic">
+                    </span>
+
+                    <span class="row3">
+                        <select class="select1">
+                            <option>Select your category</option>
+                        </select>
+
+                        <select class="select2">
+                            <option>Select Group Size</option>
+                        </select>
+                    </span>
+                    <i style="color:#FF26B9;font-size:14px">Please review your registration details before
+                        submitting</i><br>
+                    <span><input style="width: 40px;padding:0;" type="checkbox"> <span>I agreed with the event terms and
+                            conditions and privacy policy</span></span><br><br>
+                    <button class="reg-btn">Submit</button><br><br>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="js/bootstrap.js"></script>
+
+</html>
